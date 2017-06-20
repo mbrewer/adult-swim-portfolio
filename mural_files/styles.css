@@ -1,0 +1,37 @@
+.main {
+  background: url('http://i.cdn.turner.com/adultswim/big/img/2016/08/25/mural_bg.png') no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 8em;
+}
+.headerPic {
+  position: relative;
+  z-index: 2000;
+  margin: 1em 0em -7em 0em;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .headerPic {
+    margin: 0 auto;
+  }
+}
+.headerPic img {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .headerPic img {
+    max-width: 50%;
+  }
+}
+.vid {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 5px solid #000000;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .vid {
+    max-width: 80%;
+  }
+}

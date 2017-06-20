@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main {
+  min-height: 100vh;
+  background: url('http://i.cdn.turner.com/adultswim/big/img/2016/09/09/bg.jpg') center center no-repeat;
+  background-size: cover;
+}
+.vid {
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .vid {
+    max-width: 80%;
+  }
+}
+.sneak-peek {
+  margin-top: 1em;
+}
+.sneak-peek img {
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+}
+.mde-106 {
+  margin: 1em auto;
+  display: block;
+}
+.mde-106 .image-top {
+  display: block;
+  max-width: 60%;
+  padding: 1em;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .mde-106 .image-top {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+.mde-106 .image-bottom {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+@media (min-width: 1024px) {
+  .mde-106 .image-bottom {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}

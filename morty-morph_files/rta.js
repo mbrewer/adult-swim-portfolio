@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'crtg_trnr=' + escape(crtg_content) + '; path=/; expires=Sat, 19 Nov 2016 20:53:46 GMT; domain=adultswim.com';})();

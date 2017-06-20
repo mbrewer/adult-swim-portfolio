@@ -1,0 +1,55 @@
+body {
+  background: #ffd126;
+  box-sizing: border-box;
+}
+.main {
+  padding: 20px;
+}
+.main * {
+  box-sizing: border-box;
+}
+.junk-title-text {
+  font-family: Garamond;
+  font-size: 0.75em;
+  color: #ff0000;
+  line-height: 4em;
+  text-align: center;
+  margin: 2em auto;
+}
+.junk-title-text .choes-pile-text {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+}
+.junk-title-text .guess-what {
+  font-size: 2em;
+}
+.image-answers-container {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+.image-answers-container .choes-pile-image img {
+  margin: -1em auto;
+  display: block;
+  max-width: 100%;
+}
+@media (min-width: 1024px) {
+  .image-answers-container .choes-pile-image img {
+    margin: -5em auto;
+  }
+}
+.image-answers-container .answers-key {
+  font-family: Garamond;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #ff0000;
+  max-width: 75%;
+  margin: auto;
+  text-align: center;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+          transform: rotateY(180deg) rotateX(180deg);
+  line-height: 2;
+}

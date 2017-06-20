@@ -1,0 +1,103 @@
+html {
+  background: #e2e2e2;
+}
+body {
+  box-sizing: border-box;
+}
+.main {
+  margin-bottom: 5em;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+@media (max-width: 768px) {
+  .page-container {
+    min-height: 80vh;
+  }
+}
+.main {
+  padding: 20px;
+}
+.main * {
+  box-sizing: border-box;
+}
+.player-wrapper {
+  margin: 0 auto;
+  padding-top: 1em;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .player-wrapper {
+    display: block;
+    margin-bottom: -2em;
+    max-width: 80%;
+  }
+}
+.player-wrapper .vid {
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .player-wrapper .vid {
+    max-width: 80%;
+  }
+}
+.player-wrapper .watch-more {
+  margin-top: 1em;
+}
+.player-wrapper .watch-more img {
+  margin: 0 auto;
+  max-width: 40%;
+}
+.content {
+  max-width: 900px;
+}
+@media (min-width: 1024px) {
+  .content {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}
+.content .killer-mike-tyson {
+  margin: 0 auto;
+  display: block;
+}
+.content .killer-mike-tyson .image-top {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  padding: 1em;
+}
+@media (min-width: 1024px) {
+  .content .killer-mike-tyson .image-top {
+    display: block;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}
+.content .killer-mike-tyson .image-bottom {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+@media (min-width: 1024px) {
+  .content .killer-mike-tyson .image-bottom {
+    display: block;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-bottom: 2em;
+  }
+}

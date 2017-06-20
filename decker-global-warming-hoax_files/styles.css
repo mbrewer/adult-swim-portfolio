@@ -1,0 +1,66 @@
+body {
+  background: #000000;
+  box-sizing: border-box;
+}
+.main {
+  padding: 20px;
+}
+.main * {
+  box-sizing: border-box;
+}
+.player-wrapper {
+  margin: 2em auto;
+  max-width: 1024px;
+}
+.content .decker-unclassified {
+  max-width: 1024px;
+  margin: 50px auto;
+  display: block;
+}
+.content .decker-unclassified img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.giant-lie-container {
+  background: #000000;
+  color: #ffffff;
+  font-family: Courier New;
+  max-width: 1024px;
+  margin: auto auto 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+a {
+  color: #ffffff;
+}
+.giant-lie-question p {
+  padding: 1em;
+  color: #000000;
+  font-weight: bold;
+  line-height: 2;
+}
+@media (min-width: 1024px) {
+  .giant-lie-question p {
+    line-height: normal;
+  }
+}
+.giant-lie-question span {
+  background-color: #ff0000;
+  padding: 10px;
+}
+.giant-lie-answer p {
+  padding: 1em;
+}
+.giant-lie-help p span {
+  text-decoration: underline;
+}
+.giant-lie-help p a:link {
+  color: #ffffff;
+}
+.giant-lie-help p a:hover {
+  color: #ff0000;
+}

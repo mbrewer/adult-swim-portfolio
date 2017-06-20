@@ -1,0 +1,30 @@
+html {
+  background: url("http://i.cdn.turner.com/adultswim/big/img/2016/08/05/brlarge.gif") repeat;
+}
+body {
+  box-sizing: border-box;
+}
+.page-container {
+  min-height: 80vh;
+}
+.main {
+  padding: 20px;
+}
+.main * {
+  box-sizing: border-box;
+}
+.player-wrapper {
+  padding: 20px;
+  margin: 2em auto;
+  max-width: 1024px;
+}
+.watch-more-ota {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.watch-more-ota a {
+  padding: 5px;
+  color: #ffffff;
+  background: #0000FF;
+}

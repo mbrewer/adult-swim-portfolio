@@ -1,0 +1,68 @@
+html {
+  background: url(http://i.cdn.turner.com/adultswim/big/img/2016/07/28/bkgrnd_Pattern.png);
+}
+body {
+  box-sizing: border-box;
+}
+.flag {
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transition: -webkit-transform 6s ease-out;
+  transition: -webkit-transform 6s ease-out;
+  transition: transform 6s ease-out;
+  transition: transform 6s ease-out, -webkit-transform 6s ease-out;
+}
+.flag.open {
+  -webkit-transform: scaleY(0.05);
+          transform: scaleY(0.05);
+}
+.main * {
+  box-sizing: border-box;
+}
+.player-wrapper {
+  padding: 20px;
+  margin: 2em auto;
+  max-width: 1024px;
+  position: relative;
+}
+.content {
+  position: relative;
+}
+.content .decker-unclassified {
+  max-width: 1024px;
+  margin: auto;
+  padding-top: 50px;
+  display: block;
+}
+.content .decker-unclassified img {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+.season-finale {
+  position: relative;
+}
+.season-finale p {
+  font-family: 'Aldrich', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+}
+.do-not-miss {
+  position: relative;
+  color: #ffffff;
+  font-family: 'Aldrich', sans-serif;
+  max-width: 1024px;
+  margin: auto auto 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}

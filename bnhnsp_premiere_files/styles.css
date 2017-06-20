@@ -1,0 +1,161 @@
+html {
+  background: url(http://i.cdn.turner.com/adultswim/big/img/2016/07/08/background-2.png) no-repeat center center fixed;
+  background-size: cover;
+}
+body {
+  box-sizing: border-box;
+}
+.main {
+  padding: 20px;
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.main img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.main * {
+  box-sizing: border-box;
+}
+.player-wrapper {
+  margin: 1em auto 4em;
+  max-width: 900px;
+}
+.sclopio-peepio {
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  .sclopio-peepio {
+    padding: 30px;
+  }
+}
+.sclopio-peepio img {
+  max-width: 600px;
+}
+.more-img img {
+  display: block;
+  margin: 1em auto 7em;
+  max-width: 100%;
+}
+.weird-dude {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 30%;
+}
+.weird-dude img {
+  margin: 0 auto;
+  display: block;
+  max-width: 40%;
+}
+#page-content {
+  display: none;
+}
+.poll-container {
+  background: #ffffff;
+  max-width: 1280px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin: auto auto 50px;
+  box-shadow: 5px 5px 5px 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: none;
+}
+.poll-container .question-text p {
+  font-family: Times;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  line-height: 1.3em;
+  padding: 0 20px 10px;
+}
+@media (min-width: 1024px) {
+  .poll-container .question-text p {
+    font-size: 1.3em;
+  }
+}
+.poll-container .question-text span {
+  color: #ff0000;
+}
+@media (min-width: 1024px) {
+  .poll-container .question-text {
+    font-size: 1.5em;
+  }
+}
+.poll-container .poll-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1280px;
+  padding: 2 0 2 0em;
+  margin: auto auto 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.poll-container .poll-box .sp-clip {
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+}
+@media (min-width: 667px) {
+  .poll-container .poll-box .sp-clip {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+    margin: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .poll-container .poll-box .sp-clip {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(33.3333% - 40px);
+            flex: 0 0 calc(33.3333% - 40px);
+    margin: 20px;
+  }
+}
+.poll-container .poll-box .sp-clip .img-wrapper:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background-image: url('http://i.cdn.turner.com/adultswim/big/img/2016/07/08/overlay%26borderx.png');
+  background-size: cover;
+  content: "";
+}
+.poll-container .poll-box .sp-clip:hover .img-wrapper:after {
+  display: block;
+}
+.poll-container .poll-box .sp-clip.selected .img-wrapper:after {
+  display: block;
+  background-image: url('http://i.cdn.turner.com/adultswim/big/img/2016/07/08/checkx.png');
+}
+.poll-container .poll-box .sp-clip img {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+}
+.poll-container .thanks-text p {
+  font-family: Times;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .poll-container .thanks-text {
+    font-size: 1.5em;
+  }
+}

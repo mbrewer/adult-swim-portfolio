@@ -1,0 +1,15 @@
+.main {
+  background: url('http://i.cdn.turner.com/adultswim/big/img/2016/08/25/checkerbg.png') repeat;
+  min-height: 100vh;
+  background-size: cover;
+}
+.morty-morph img {
+  display: block;
+  max-width: 1024px;
+  margin: auto;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .morty-morph img {
+    max-width: 80%;
+  }
+}
